@@ -57,7 +57,7 @@ if (mysqli_num_rows($run)>0) {
     <tr>
       <th scope="row"><?php echo $pro['pro_name']?></th>
       <td><?php echo $pro['pro_des']?></td>
-      <td><?php echo $pro['category']?></td>
+      <td><?php echo $pro['cat_name']?></td>
       <td><?php echo $pro['pro_price']?></td>
       <td><img src="<?php echo 'images/'.$pro['pro_image']?>" width="100px" height="100px" ></td>
       <td><a href="trash.php?id=<?php echo $pro['pro_id']?>" class="btn btn-danger">Trash</a></td>
